@@ -1,1 +1,22 @@
  find . -name "*.zip" |xargs -I% mv % zip
+   48  find . -name "*.zip" | xargs xargs -I% mv % `zip`
+   49  find . -name "*.zip" |xargs -I% mv % `path`
+   50  find . -name "*.zip" |xargs -I% mv % `zip`
+   51  find . -name "*.zip"
+   52  find . -name "*.zip" |xargs -I% mv % zip
+   53  find . -name "*.zip"
+   54  find . -name "*.rar" |xargs -I% mv % zip
+   55  find . -name "*.msi" |xargs -I% mv % zip
+   56  find . -name "*.pdf" |xargs -I% mv % zip
+   57  mkdir doc
+   58  find . -name "*.docx" |xargs -I% mv % doc
+   59  find . -name "*.pptx" |xargs -I% mv % doc
+   60  find . -name "*.xlsx" |xargs -I% mv % doc
+   61  find . -name "*.doc" |xargs -I% mv % doc
+   62  find . -name "*.xls" |xargs -I% mv % doc
+   63  find . -name "*.odp" |xargs -I% mv % doc
+   64  mkdir pic
+   65  find . -name "*.jpg" |xargs -I% mv % pic
+   66  find . -name "*.ai" |xargs -I% mv % pic
+   67  find . -name "*.png" |xargs -I% mv % pic
+   68  history
