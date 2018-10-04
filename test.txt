@@ -1,3 +1,4 @@
+ find . -maxdepth 1 -name "*.jpg" |xargs -I% mv % pic 
  find . -name "*.zip" |xargs -I% mv % zip
    48  find . -name "*.zip" | xargs xargs -I% mv % `zip`
    49  find . -name "*.zip" |xargs -I% mv % `path`
